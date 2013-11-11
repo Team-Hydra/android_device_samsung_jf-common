@@ -41,10 +41,10 @@ PRODUCT_COPY_FILES += \
     device/samsung/jf-common/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     device/samsung/jf-common/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf
 
-# Wifi
+# ChronicKernel Specifics
 PRODUCT_COPY_FILES += \
     device/samsung/jf-common/configs/post-init.sh:root/sbin/post-init.sh \
-    device/samsung/jf-common/configs/chronic-config.sh:etc/chronic-config.sh
+    device/samsung/jf-common/configs/chronic-config.sh:system/etc/chronic-config.sh
 
 # Media Profile
 PRODUCT_COPY_FILES += \
